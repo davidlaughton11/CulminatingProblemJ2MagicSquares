@@ -1,0 +1,20 @@
+﻿<Window x:Class="CulminatingProblemJ2MagicSquares.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CulminatingProblemJ2MagicSquares"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <StackPanel>
+        <TextBlock TextWrapping="Wrap">Magic Squares are square arrays of numbers that have the interesting property that the numbers in
+each column, and in each row, all add up to the same total. Output either magic if the input is a magic square, or not magic if the input is not a magic
+square.        </TextBlock>
+        <TextBox x:Name="rowOne"></TextBox>
+        <TextBox x:Name="rowTwo"></TextBox>
+        <TextBox x:Name="rowThree"></TextBox>
+        <TextBox x:Name="rowFour"></TextBox>
+        <Button Click="Button_Click">click</Button>
+        <Label x:Name="lblOutput"></Label>
+    </StackPanel>
+</Window>
